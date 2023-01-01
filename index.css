@@ -1,0 +1,166 @@
+.Background_{
+    background-color: rgb(129, 184, 142);
+}
+
+.heading_{
+    text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+color: green;
+background-color: rgba(21, 255, 0, 0.342);
+
+}
+
+.Align_2{
+    display: flex;
+   padding: 1ch;
+    margin-bottom: 0.5in;
+    text-align: justify;
+    }
+
+
+    .button_{
+        background-color: gray;
+        cursor: pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        border: none;
+        border-radius: 1ch;
+        padding: 6px;
+        
+    }
+
+    .button_:hover{
+        color: goldenrod;
+        background-color: brown;
+    }
+
+
+.Booking_{
+   margin-left: 11.1in;
+
+}
+
+.container_{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_bar{
+    width: 70%;
+    max-width: 50%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+     backdrop-filter: blur(4px) saturate(180px);
+}
+
+.search_bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.search_bar button img{
+    width: 25px;
+}
+
+.search_bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+   
+ 
+
+.Pakistan_{
+    align-self: center;
+margin-left: 450%;
+}
+    
+
+
+.Paragraph_{
+    text-align: center;
+   font-size: x-large;
+   color: black;
+
+   }
+
+.Explore_{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(21, 255, 0, 0.342);;
+}
+
+.List_{
+margin-left: 40%;
+}
+
+.Color_{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.Align_{
+    text-align: center;
+    margin-left: 15%;
+}
+
+.sindhbg_ , .punjabg_ , .balochistanbg_ , .kpkbg_{
+  background-color: cadetblue;
+   text-align: center;
+justify-content: center;
+margin: 0 auto;
+margin-top: 0.2in;
+}
+
+.sindhpara_ , .punjabpara_ , .balochistanpara_ , .kpkpara_{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+   color: tan;
+   
+}
+
+
+
+    h1 , h3{
+        background-color: #58629b;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+    }
+    
+
+    .tourbooking_{
+         background-color: #58629b;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+.tourbookingbg_{
+   background-color:cadetblue ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+   
+   

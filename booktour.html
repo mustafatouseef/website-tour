@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOUR</title>
+
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body class="tourbookingbg_">
+
+    <h1 class="tourbooking_">FOR BOOKING PLEASE ENTER YOUR DETAILS</h1>
+    <form>
+
+        <fieldset>
+
+            <legend>PERSONAL INFORMATION</legend>
+            
+     <label>User Name</label>
+     <input type="text" name="User name" placeholder="Your Name" required="required" />
+
+        <br />
+        <br />
+
+        <label>User Email</label>
+        <input type="email" name="User Email" placeholder="Your Email" required="required" />
+
+        <br />
+        <br />
+
+        <label>SELECT YOUR GENDER</label>
+
+        <br />
+
+        <input type="radio" name="gender" value="male"/> Male
+        <input type="radio"  name="gender" value="female"/> Female
+
+        <br />
+        <br />
+
+        <label>Cell no.</label>
+        <input  type="number" name="User number" placeholder="Cell number" required="required" />
+
+        <br />
+        <br />
+
+        <label>CNIC</label>
+        <input type="number" name="User CNIC" placeholder="42101-2545591-9" required="required" maxlength="14" />
+
+        <br />
+        <br />
+
+        <label>Date of birth</label>
+        <input type="date" name="Date of birth" placeholder="Date of birth" required="required" />
+
+        <br />
+        <br />
+
+        <label>RESIDENTAL ADDRESS</label>
+        <input type="text" placeholder="Your address"/>
+
+         <b><p>UPLOAD YOUR CNIC</p></b>
+        <input type="file" name="file" />
+
+        <br/>
+
+        <b><p>UPLOAD YOUR PICTURE </p></b>
+        <input type="image" src="images.jpeg"/>
+
+        <br />
+        <br />
+
+ <input type="submit" value="Submit" />
+            
+     </fieldset>
+
+     <fieldset>
+        <legend>FACILITIES</legend>
+
+        <label>PERSONAL TOUR GUIDER</label>
+
+        <br />
+        <input  type="radio" name="tour guider" value="male"/> Male
+        <input  type="radio" name="tour guider" value="fwmale"/> Female
+
+        <br />
+        <br />
+
+        <label>TOUR TYPE</label>
+
+        <br />
+        <input type="radio" name="luxuries" value="first class"/> First Class
+        <input type="radio" name="luxuries" value="business class"/> Business Class
+        <input type="radio" name="luxuries" value="econonmy"/> Economy
+
+        <br />
+        <br />
+
+        <label>TOUR PACKAGE</label>
+        <br />
+
+        <input type="radio" name="package" value="7 days"/>7 Days
+        <input type="radio" name="package" value="10 days"/>10 Days
+        <input type="radio" name="package" value="15 days"/>15 Days
+
+        <br />
+        <br />
+
+        <label>TRAVELLING TO DIFFERENT CITIES FROM</label>
+        <br />
+
+        <input type="radio" name="travelling" value="bus"/> Bus 
+        <input type="radio" name="travelling" value="car"/> Car
+
+        <br />
+        <br />
+
+        <label>WHAT KIND OF WEATHER DO YOU WANT</label>
+        <br/>
+
+        <input type="checkbox" name="weather" value="live snowfall"/> Live Snowfall
+        <input type="checkbox" name="weather" value="rainy"/> Rainy
+        <input type="checkbox" name="weather" value="foggy"/> Fog
+
+        <br />
+        <br />
+
+        <label>FOOD</label>
+        <br />
+
+        <input type="checkbox" name="food" value="breakfast"/> Breakfast
+        <input type="checkbox" name="food" value="lunch"/> Lunch
+        <input type="checkbox" name="food" value="dinner"/> Dinner
+
+        <br />
+        <br />
+
+        <label>SEPARATE ROOMS</label>
+        <br />
+
+        <input type="radio" name="rooms" value="2 rooms"/>2 Rooms
+        <input type="radio" name="rooms" value="3 rooms"/>3 Rooms
+      </fieldset>
+
+     <label>COMMENT SOMETHING ABOUT YOUR TOUR WITH US</label>
+     <br/>
+
+      <textarea name="comments" placeholder="Share your experience" cols="20" rows="4"></textarea>
+
+      
+    </form>
+</body>
+</html>
